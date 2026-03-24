@@ -33,6 +33,6 @@ jobs:
         with:
           accountId: f91c7f7f950c59134d5c4b766c385670
           projectName: image-background-remover
-          directory: dist
+          directory: out
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
